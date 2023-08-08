@@ -1,0 +1,19 @@
+{
+  "name": "playwright-ts-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test",
+    "posttest": "npx ts-node src/helper/reports.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.3.0",
+    "@playwright/test": "^1.36.2",
+    "multiple-cucumber-html-reporter":"^3.3.0",
+    "ts-node": "^10.9.1"
+  }
+}
