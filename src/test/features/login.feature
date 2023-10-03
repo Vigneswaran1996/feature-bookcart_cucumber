@@ -14,4 +14,4 @@ Feature: Bookcart application tests
     Given User enter the username as "test12"
     Given User enter the password as "Test1234@19"
     When User click on the login button
-    But Login should fail 
+    Then Login should fail   
